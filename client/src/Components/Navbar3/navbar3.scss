@@ -1,0 +1,50 @@
+.navbar3 {
+    width: 100%;
+    position: absolute;
+    top: 0;
+    font-family: 'Raleway', sans-serif;
+    font-size: 30px;
+    background-color: red;
+    text-decoration-color: white !important;
+    height: 50px;
+    line-height: 50px;
+    box-shadow: 2px 2px 2px rgb(216, 216, 216);
+}
+
+.navbar3-banner {
+    float: left;
+    color: white;
+    margin-left: 5%;
+}
+
+.navbar3-sidenav {
+    float: right;
+    font-family: 'Arial', italic;
+    font-weight: bold;
+    font-size: 20px;
+}
+
+.navbar3-search {
+    display: inline-block;
+    margin-left: 15px;
+    margin-right: 15px;
+
+}
+
+.navbar3-about {
+    display: inline-block;
+    margin-left: 15px;
+    margin-right: 15px;
+
+}
+
+.navbar3 a {
+    text-decoration-color: white !important;
+    color: white !important;
+    
+}
+
+.navbar3 a:hover {
+    text-decoration: none;
+    
+}

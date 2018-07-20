@@ -1,0 +1,74 @@
+
+
+.about {
+    h1 {
+      color: black;
+      font-size: 30px;
+    }
+    background-color: transparent;
+    color: black;
+    width: 70%;
+    height: 70%;
+    margin: auto;
+    margin-top: 50px;
+    font-size: 20px;
+    line-height: 40px;
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    
+  }
+
+.p1, .p2 {
+    width: 90%;
+    margin: auto;
+}
+
+
+
+.app {
+    background-color: rgba(243, 243, 243, 0.747);
+   }
+
+.h1-p2, .h2-p2 { 
+    text-align: center;
+    margin-top: 0px;
+    border-bottom: 1px solid white;
+    
+   
+}
+
+.h1-p2 {
+    width:33%;
+    margin: auto;
+    margin-bottom: 10px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+
+
+.h2-p2 {
+    width: 70%;
+    margin: auto;
+    margin-bottom: 10px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    
+}
+
+.p1 {
+    margin-top: 50px;
+}
+.p2 {
+    margin-top: 70px;
+}
+
+.p1-body, .p2-body {
+    text-indent: 2em;
+    width: 90%;
+    margin: auto;
+}
+
