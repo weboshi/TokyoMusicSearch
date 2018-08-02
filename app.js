@@ -2,6 +2,7 @@ var PORT = process.env.PORT || 3000; // Sets an initial port. We'll use this lat
 // ensure environment variables are loaded
 import App from './server';
 
+
 // Requiring our models for syncing
 import db from './server/models';
 
