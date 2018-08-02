@@ -1,4 +1,4 @@
-var PORT = process.env.PORT || 3001; // Sets an initial port. We'll use this later in our listener
+var PORT = process.env.PORT || port; // Sets an initial port. We'll use this later in our listener
 // ensure environment variables are loaded
 import App from './server';
 
