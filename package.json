@@ -1,6 +1,9 @@
 {
   "name": "TokyoMusicSearch",
   "version": "0.1.0",
+  "engines": {
+    "node": "8.9.3"
+  },
   "main": "server/index.js",
   "private": true,
   "proxy": "http://localhost:3001",
