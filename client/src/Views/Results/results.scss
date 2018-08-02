@@ -2,8 +2,8 @@
 .mainDiv {
     width: auto;
     margin: auto;
-    height: auto;
- 
+    height: 100%;
+
 }
 
 .artistPerforming {
@@ -24,11 +24,9 @@
     display: flex;
     background-color: rgba(243, 243, 243, 0.747);
     width: 100%;
-    height: 100vh;
+    min-height: 100vh;
     overflow: auto;
-    position: relative;
-    flex-direction: column;
-
+    height: auto !important;
 
 
 }
@@ -41,6 +39,11 @@
     font-size: 30px;
 }
 
-.app {
-    height: auto;
+html,
+body,
+#root, {
+ height: 100%;
+ position: relative;
 }
+
+

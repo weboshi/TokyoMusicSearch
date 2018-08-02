@@ -151,7 +151,7 @@ export default class resultPage extends Component {
         <div className='mainDiv'>
           <div className="artistPerforming"><h1 style={{marginBottom: '30px'}}> {this.state.artist} is performing in {this.changeDate()}! <i class="far fa-smile-beam"></i> </h1>
           {this.state.performingCheck.map((item, i) => 
-              <div key={i} className="artistsPerforming" style={{marginBottom:'20px'}}>
+              <div key={i} style={{marginBottom:'20px'}}>
                 <Paper elevation={1} style={{padding:'30px', margin: 'auto'}}>
                   <Typography variant="headline" component="h3" style={{fontSize:'25px'}}>
                   <li key={i}>{item.venue}</li>
